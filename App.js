@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import MapView, { Marker } from 'react-native-maps';
-import Location from 'expo-location';
+import * as Location from 'expo-location';
 
 export default function App() {
   const [region, setRegion] = useState(null);
